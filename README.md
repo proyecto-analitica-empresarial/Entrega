@@ -1,4 +1,4 @@
-# Caso de Estudio: Fedex
+Caso de Estudio: Fedex
 
 El objetivo de este trabajo consiste en buscar un/unos datasets que puedan en conjunto con sus datos, brindar la posibilidad de proyectar cuáles serán los puntos más eficaces en donde la empresa de encomienda debería instalar sus nuevas sucursales para el año 2030.
 
@@ -15,8 +15,12 @@ Luego, se dio entablar la correlación de los datos, lo cual consiste en la medi
 Al momento de hacer la correlación de nuestros datos con las variables fijadas, se notó una baja correlación entre las variables, por lo cual indicaría que el PBI no está correlacionado al crecimiento poblacional de un país. Dado que, no nos parece una medida coherente para proyectar un país óptimo al cual colocar la sede de Fedex. 
 Esto puede darse por varios motivos, puede que el crecimiento este rezagado en base a el crecimiento económico y que se dé a los años de un incremento en el PBI. A su vez, otro de los motivos que pueden verse, es que los países siempre crecen en población, pero su PBI aumenta o disminuye por factores externos a ellos, o simplemente la población no afecta en sí al PBI del país de manera. 
 
-Posteriormente, se llevó a cabo la regresión lineal, éste es un método en el cual se aplica un modelo para formar una ecuación en base a los datos que uno tiene de sus variables. Esta se relaciona con la correlación, dado que a mayor correlación, habrá menos dispersión (distancia a la cual se alejan los distintos puntos de la línea de la ecuación) entre los datos obtenidos y la ecuación formulada. 
+Esta misma correlación dio un resultado de 0,14, al ser tan baja, no se consideró apropiado ejecutar una regresión de GDP en función de la población (ya que de lo contrario se debería llevar a cabo para todos los países). Por lo que, se realizó una autorregresión, la cual devuelve una variable en sí misma.
 
-Más allá de los datos, uno no puede determinar el bienestar de un país a largo plazo en el estado que probó estar el mundo en los últimos 5 años. Hemos visto una pandemia que dejó parado y estancado a varios países, una guerra que cambió la dinámica del comercio y la energía en Europa y una crisis inflacionaria que preocupa a los países que demostraron ser más confiables y estables en el mundo y que ahora cursan una recesión. Por lo que aunque uno pueda estimar la supuesta posición de un país, en la eventual situación que el mundo se mantenga estable, sería muy difícil prever todas las posibles desestabilizaciones que ocurran en el camino o que pasen a la hora de abrir una nueva sede.
+Prosiguiendo con el análisis, se ensamblaron los datasets, a su vez, para cada uno de los datos, se efectuó una media del crecimiento del país, primero en población y segundo por PBI. Después se realizó el top 25 con mayor crecimiento de cada uno de éstos y dio como consecuencia a aquellos países que poseían los valores más elevados en relación al PBI y  población.
 
-Como conclusión, no llegamos a un modelo para poder determinar con nuestros datos un país al cual hacer una sede para el 2030. Nos parece que se necesitan variables adicionales para lograr formular un modelo el cual pueda predecir mejor el mercado para el 2030, los cuales no fuimos capaces de incorporar por nuestra cuenta. 
+A modo de conclusión del trabajo, es posible afirmar que los tres países con que poseían la mayor recepción de una sucursal de Fedex son Uganda, Chad y Guinea Ecuatorial, si bien estos tres, no son países con un nivel de desarrollo tan atroz como el de muchos países europeos, tiene sentido que tengan mayor potencial de crecimiento que países que ya lo son, o por el otro lado, que sean paises mas atractivos para instalar nuevos negocios debido a su ubicación geográfica cercana a Europa y Asia, a diferencia de otros países en vía de desarrollo que poseen la desventaja de no encontrarse cercanos a potencias Europeas o Asiáticas.
+
+
+
+Bibliografía: Presentaciones del Curso.
